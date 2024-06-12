@@ -15,7 +15,7 @@ const Header = () => {
           <h1>
             <Link to={"/"}>
       
-              <img src="./images/logo.png" alt="스타벅스 로고" />
+              {propcess.env.PUBLIC_URL}<img src="./images/logo.png" alt="스타벅스 로고" />
             </Link>
           </h1>
           <NavBar />
