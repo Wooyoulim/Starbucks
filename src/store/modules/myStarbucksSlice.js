@@ -1,8 +1,8 @@
 // 2. 비동기 X
 import { createSlice } from '@reduxjs/toolkit';
-import drinkData from './../assets/api/drinkData';
-import foodData from '../assets/api/foodData';
-import productData from '/../../assets/api/productData';
+import drinkData from '../../assets/api/drinkData';
+import foodData from '../../assets/api/foodData';
+import productData from '../../assets/api/productData';
 
 const initialState = {
     user: localStorage.getItem('user') || {},
