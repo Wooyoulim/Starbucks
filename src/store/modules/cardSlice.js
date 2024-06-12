@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
-import cardsData from "../../assets/api/cardsData";
-import cardsSort from "../../assets/api/cardsSort";
+import cardsData from "/../../assets/api/cardsData";
+import cardsSort from "./../../assets/api/cardsSort";
 import cardsThemaData from "../../assets/api/cardsThemaData";
 import cardsThemaSort from "../../assets/api/cardsThemaSort";
 
