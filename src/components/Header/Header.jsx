@@ -14,6 +14,7 @@ const Header = () => {
         <div className="inner">
           <h1>
             <Link to={"/"}>
+                {propcess.env.PUBLIC_URL}
               <img src="../../images/logo.png" alt="스타벅스 로고" />
             </Link>
           </h1>
