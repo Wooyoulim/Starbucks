@@ -14,7 +14,7 @@ const Header = () => {
         <div className="inner">
           <h1>
             <Link to={"/"}>
-              <img src="/images/logo.png" alt="스타벅스 로고" />
+              <img src="./images/logo.png" alt="스타벅스 로고" />
             </Link>
           </h1>
           <NavBar />
