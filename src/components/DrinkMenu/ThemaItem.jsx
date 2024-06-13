@@ -8,7 +8,7 @@ const ThemaItem = ({ data }) => {
     <DrinkmenuList>
       <DrinkMenuLi>
         <div className="img">
-          <Link to={`/drinkMenu/${imgurl.split("/")[5]}/${id}`}>
+          <Link to={`/drinkMenu/${imgurl.split("/")[3]}/${id}`}>
             <img src={imgurl} alt={kor} />
           </Link>
         </div>
