@@ -142,7 +142,7 @@ const DrinkMenuDetail = () => {
           <div className="recommendImg">
             {NewItem[0].map((item, index) => (
               <Link
-                to={`/drinkMenu/${item.imgurl.split("/")[5]}/${item.id}`}
+                to={`/drinkMenu/${item.imgurl.split("/")[3]}/${item.id}`}
                 key={index}
               >
                 <p className="nameBackground">
