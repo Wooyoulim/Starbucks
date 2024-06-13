@@ -5,7 +5,7 @@ const ThemaList = ({ item }) => {
   const { imgurl, kor, id } = item;
   return (
     <CardThemaItem>
-      <Link to={`/card/${imgurl.split("/")[5]}/${id}`}>
+      <Link to={`/card/${imgurl.split("/")[3]}/${id}`}>
         <div className="img">
           <img src={imgurl} alt={kor} />
         </div>
