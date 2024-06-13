@@ -11,7 +11,7 @@ export const DrinkMenuWrap = styled.div`
 
 export const SubVisualWrap = styled.div`
   height: 405px;
-  background-image: url("../../public/images/drink/coffeeVisual.png");
+  background-image: url("./images/drink/coffeeVisual.png");
   background-repeat: no-repeat;
   background-position: 0, 0;
   background-size: cover;

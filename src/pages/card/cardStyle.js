@@ -11,7 +11,7 @@ export const CartWrap = styled.div`
 
 export const SubVisualWrap = styled.div`
     height: 405px;
-    background-image: url('../../public/images/cards/cardVisual.jpeg');
+    background-image: url('./images/cards/cardVisual.jpeg');
     background-repeat: no-repeat;
     background-position: 0, 0;
     background-size: cover;
