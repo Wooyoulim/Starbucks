@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import productimg from '../../../../public/images/subvisual/productsubvisual.jpg';
+import productimg from './images/subvisual/productsubvisual.jpg';
+//import productimg from '../../../../public/images/subvisual/productsubvisual.jpg';
 
 export const SubVisualWrap = styled.div`
     height: 405px;
